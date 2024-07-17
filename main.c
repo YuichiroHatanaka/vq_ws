@@ -1,7 +1,8 @@
 #include"P5Header.h"
 
 int main(){
-        char rawMap[] = "/home/yuichirohatanaka/vq_ws/map/default.pgm";
+ //       char rawMap[] = "/home/yuichirohatanaka/vq_ws/map/default.pgm";
+        char rawMap[] = "sample.pgm";
         int width, height, start;
 
         P5Header(rawMap, &width, &height, &start);
